@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/* 基本設定 */
+html {
+      scroll-behavior: smooth;
+  }
+  
+body{
+  background-color: #ffb6c1;
+}
+
+section:nth-of-type(even){
+  background-color: #ffa3af;
+}
+
+/*.works-corner,
+.about-cornere,
+.contact-corner{
+  width: 1200px;
+  height: 550px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+}*/
+
+
+h2{
+  color: #fff;
+  font-size: 4vw;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: lighter;
+  padding: 20px 0 20px 10px;
+}
+/* ヘッダー */
+header{
+  height: 60px;
+  background-color: #ffa3af;
+  position:fixed;
+  top:0;
+  width: 100%;
+  opacity: 80%;
+}
+
+header nav ul{
+  overflow: hidden;
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  float: left;
+  font-size: 2rem;
+  font-family: "Tenor Sans", sans-serif;
+  width: 20%;
+}
+
+header nav ul li:first-of-type{
+  padding-left: 70px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav ul li a:hover{
+  opacity: 40%;
+  transition: 0.5s;
+}
+
+/* メイン */
+.top-scroll{
+  
+  background-image: url(../images/Nanohana.png);
+  width: 1300px;
+  height: 650px;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.top-scroll h1{
+  font-size: 6vw;
+  text-align: center;
+ padding-top: 150px;
+ color: #fff;
+ font-family: "Sacramento", cursive;
+ font-weight: normal;
+}
+
+/* プロダクト */
+.product{
+  height: 700px;
+  border-radius: 40px 40px 0 0;
+  color: #333;
+  font-family: "Kiwi Maru", serif;
+}
+
+
+
+.product-corner{
+  width: 1200px;
+  height: 550px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+
+.product-corner::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ffbce3; 
+}
+
+.product-corner::-webkit-scrollbar-thumb {
+  background: #fffbc7;
+  width: 6px;
+  border-radius: 5px;
+}
+
+.product-text{
+  width: 500px;
+  flex-shrink: 0;
+  padding-left: 100px;
+}
+
+.product-text caption{
+  font-size: 30px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.product-text th{
+  width: 100px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.product-text td{
+  width: 350px;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.product-image{
+  width: 410px;
+  flex-shrink: 0;
+  padding-right: 100px;
+}
+
+
+/* スライド */
+
+/*.Arrow {
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}*/
+
+
+/* アバウト */
+.about{
+  height: 550px;
+  border-radius: 40px 40px 0 0;
+}
+
+.about-corner{
+  width: 1200px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* コンタクト */
+.contact{
+  height: 550px;
+  border-radius: 40px 40px 0 0;
+}
+.contact-corner{
+  width: 1200px;
+  height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/* フッター */
+.footer{
+  height: 70px;
+  color: #fff;
+}
